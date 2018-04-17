@@ -3,7 +3,7 @@ package com.example.android.recyclerviewproject;
 public class Students {                                     //Creates the model, with constructor & getters/setters
 
     private String name;
-    private int age;
+    private String age;
     private String phoneType;
     private String summary;
 
@@ -15,11 +15,11 @@ public class Students {                                     //Creates the model,
         this.name = name;
     }
 
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
@@ -39,7 +39,7 @@ public class Students {                                     //Creates the model,
         this.summary = summary;
     }
 
-    public Students(String name, int age, String phoneType, String summary) {
+    public Students(String name, String age, String phoneType, String summary) {
         this.name = name;
         this.age = age;
         this.phoneType = phoneType;
