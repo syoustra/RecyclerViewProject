@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RecyclerViewProject</string>
+    <string name="name">Name</string>
+    <string name="summary">Summary</string>
+    <string name="phone_type">Phone Type</string>
+    <string name="age">Age</string>
 </resources>
